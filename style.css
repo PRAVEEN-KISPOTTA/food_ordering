@@ -1,6 +1,19 @@
+*{
+    margin: 0;
+}
+
 nav, #subNavContainer{
     display: flex;
     align-items: center;
+}
+
+nav{
+    padding: 10px 20px 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    gap: 20px
 }
 
 #logo{
@@ -8,11 +21,36 @@ nav, #subNavContainer{
     width: 100px;
 }
 
-#greeting p, h4{
-    line-height: 0;
-}
-
 #subNavContainer{
     width: 100%;
     justify-content: space-between;
+}
+
+#searchInput{
+    width: 50%;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    padding: 5px 10px ;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* #searchInput input:focus{
+    outline: 1px solid rgb(5, 253, 5);
+} */
+
+#searchInput input{
+    border: transparent;
+    background-color: aliceblue;
+    outline: none;
+}
+
+#searchInput i{
+    opacity: 20%;
+}
+
+.app-container{
+    padding: 100px 100px;
 }
