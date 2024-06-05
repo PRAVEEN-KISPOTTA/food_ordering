@@ -1,0 +1,18 @@
+nav, #subNavContainer{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    height: 50px;
+    width: 100px;
+}
+
+#greeting p, h4{
+    line-height: 0;
+}
+
+#subNavContainer{
+    width: 100%;
+    justify-content: space-between;
+}
