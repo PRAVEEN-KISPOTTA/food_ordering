@@ -22,7 +22,7 @@
 
                     <div id="searchInput">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="search">
+                        <input type="search" id="search">
                     </div>
                 </div>
             </nav>
@@ -32,7 +32,7 @@
             <div class="app-container">
                 <div>
                     <h2>Top restaurants in your area</h2>
-                    <div>
+                    <section class="filter-sort-container">
                         <select id="sort">
                             <option value="rating" selected>Sort by Rating</option>
                             <option value="eta">Sort by ETA</option>
@@ -46,7 +46,11 @@
                             <option value="Indian">Indian</option>
                             <option value="Italian">Italian</option>
                         </select>
-                    </div>
+                    </section>
+
+                    <section id="foodList">
+                        
+                    </section>
                 </div>
             </div>
         </main>
